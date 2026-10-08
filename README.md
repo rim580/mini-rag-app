@@ -31,7 +31,6 @@ python
 document = """
 Transformers are deep learning models introduced in 2017. 
 They use self-attention mechanisms to process sequential data in parallel. 
-Unlike RNNs, they do not require processing tokens one by one, making training significantly faster.
 """
 
 # 1. Chunk document
