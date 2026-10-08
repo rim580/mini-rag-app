@@ -22,7 +22,7 @@ Dependencies & Installation
 Install the required Python packages:
 bash
 pip install numpy sentence-transformers transformers torch
-Use code with caution.
+
 
 Usage Example
 
