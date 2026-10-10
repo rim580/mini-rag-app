@@ -45,11 +45,3 @@ hits = retrieve_top_k(query, chunks, embedder, k=2)
 context = build_context(chunks, hits)
 answer = generate_answer(query, context)
 
-print("Answer:", answer)
-Use code with caution.
-I can help adapt this implementation further if you want to:
-• Add persistent vector storage (such as FAISS, Chroma, or Qdrant)
-• Swap to a larger LLM or an API-based model (e.g., OpenAI, Anthropic, or Ollama)
-• Implement chunk re-ranking (e.g., using a Cross-Encoder)
-
-                
